@@ -46,7 +46,7 @@ namespace PS_16_02_2024
                     carrello = (Carrello)Session["Carrello"];
                 }
 
-                //carrello.AggiungiProdotto(prodotto);
+
                 Session["Carrello"] = carrello;
 
                 Response.Redirect("Carrello.aspx");
